@@ -81,7 +81,7 @@ public class DrawableManager {
 			return drawable;
 		} catch (Exception e) {
 			Log.e(this.getClass().getSimpleName(), "fetchDrawable failed", e);
-		} finally{//关闭流
+		} finally{//close stream
 			try {
 				if(is!=null)
 					is.close();
